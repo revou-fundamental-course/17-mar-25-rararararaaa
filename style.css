@@ -1,0 +1,118 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.bg-blue-500 {
+    background-color: #3498db;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.py-4 {
+    padding: 16px 0;
+}
+
+/* Kontainer utama */
+.max-w-md {
+    max-width: 500px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+    border-radius: 10px;
+}
+
+.mt-6 {
+    margin-top: 24px;
+}
+
+.p-6 {
+    padding: 24px;
+}
+
+/* Judul */
+.text-2xl {
+    font-size: 24px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* Pastikan tombol di tengah */
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 150px; /* Lebar tombol agar seragam */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bg-blue-500 {
+    background-color: #007bff;
+    color: white;
+}
+
+.bg-yellow-500 {
+    background-color: #ffc107;
+    color: black;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+/* Input */
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* Kotak Section */
+.border-gray-300 {
+    border: 1px solid #ccc;
+}
+
+.rounded-b {
+    border-radius: 0 0 10px 10px;
+}
+
+/* Gambar */
+img {
+    display: block;
+    margin: 10px auto;
+}
