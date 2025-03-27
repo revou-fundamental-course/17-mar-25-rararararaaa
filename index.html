@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Katik Kalkulator Matematika</title>
+    <script src="JS/scripct.js"></script>
+    <link href="CSS/style.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100">
+    <div class="bg-blue-500 text-white text-center py-4">
+        <h1 class="text-2xl font-bold">KATIK</h1>
+        <p class="text-lg">Kalkulator Matematika</p>
+    </div>
+    <div class="max-w-md mx-auto bg-white shadow-md rounded-lg mt-6 p-6">
+        <h2 class="text-center text-xl font-bold mb-4">Welcome to Katik</h2>
+        <p class="text-center mb-4">
+            Hai Sobat, Selamat datang di Katik :)
+            <br/>
+            Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar
+        </p>
+        <div class="flex justify-center mb-4">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">Persegi</button>
+        </div>
+        <div class="flex justify-center mb-4">
+            <button class="bg-blue-500 text-white px-4 py-2 rounded">P. Panjang</button>
+        </div>
+        
+        <!-- Luas Persegi Section -->
+        <div class="bg-blue-500 text-white text-center py-2 rounded-t">
+            <h3 class="text-lg font-bold">Luas Persegi</h3>
+        </div>
+        <div class="p-4 border border-gray-300 rounded-b">
+            <div class="text-center mb-4">
+                <img alt="Diagram of a square" class="mx-auto" height="100" src="OIP (6).jpeg" width="100"/>
+                <p>Bujur sangkar</p>
+            </div>
+            <p class="mb-4">Rumus Luas Persegi yaitu :</p>
+            <p class="mb-4">L = S x S</p>
+            <p class="mb-4">Di mana :</p>
+            <p class="mb-4">L = Luas<br/>S = Sisi</p>
+            <div class="text-center mb-4">
+                <h4 class="text-lg font-bold">Hitung Luas Persegi</h4>
+            </div>
+            <div class="flex justify-center mb-4">
+                <input id="sisiLuas" class="border border-gray-300 rounded px-4 py-2 w-full" placeholder="Nilai Sisi" type="text"/>
+            </div>
+            <div class="flex justify-center mb-4">
+                <button id="hitungLuas" class="bg-blue-500 text-white px-4 py-2 rounded">Hitung</button>
+            </div>
+            <div class="flex justify-center">
+                <button id="resetLuas" class="bg-yellow-500 text-white px-4 py-2 rounded">Reset</button>
+            </div>
+            <p id="hasilLuas" class="text-center font-bold"></p>
+        </div>
+        
+        <!-- Keliling Persegi Section -->
+        <div class="bg-blue-500 text-white text-center py-2 rounded-t mt-6">
+            <h3 class="text-lg font-bold">Keliling Persegi</h3>
+        </div>
+        <div class="p-4 border border-gray-300 rounded-b">
+            <div class="text-center mb-4">
+                <img alt="Diagram of a square" class="mx-auto" height="100" src="OIP (6).jpeg" width="100"/>
+                <p>Bujur sangkar</p>
+            </div>
+            <p class="mb-4">Rumus Keliling Persegi yaitu :</p>
+            <p class="mb-4">K = 4 x S</p>
+            <p class="mb-4">Di mana :</p>
+            <p class="mb-4">K = Keliling<br/>S = Sisi</p>
+            <div class="text-center mb-4">
+                <h4 class="text-lg font-bold">Hitung Keliling Persegi</h4>
+            </div>
+            <div class="flex justify-center mb-4">
+                <input id="sisiKeliling" class="border border-gray-300 rounded px-4 py-2 w-full" placeholder="Nilai Sisi" type="text"/>
+            </div>
+            <div class="flex justify-center mb-4">
+                <button id="hitungKeliling" class="bg-blue-500 text-white px-4 py-2 rounded">Hitung</button>
+            </div>
+            <div class="flex justify-center">
+                <button id="resetKeliling" class="bg-yellow-500 text-white px-4 py-2 rounded">Reset</button>
+            </div>
+            <p id="hasilKeliling" class="text-center font-bold"></p>
+        </div>
+    </div>
+        <!-- Footer -->
+        <footer class="bg-gray-800 text-blue text-center py-4 mt-6">
+            <p>&copy; 2025 Katik Kalkulator Matematika Raisya. All Rights Reserved.</p>
+        </footer>  
+</body>
+</html>
